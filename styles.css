@@ -1,0 +1,89 @@
+@import url("https://fonts.cdnfonts.com/css/cat-altgotisch");
+@import url("https://fonts.cdnfonts.com/css/gyahegi");
+@font-face {
+	font-family: "Benjamin-Title Regular";
+	src: url("https://db.onlinewebfonts.com/t/c84341dcd44890f925a26ab3e26330ad.eot");
+	src: url("https://db.onlinewebfonts.com/t/c84341dcd44890f925a26ab3e26330ad.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/c84341dcd44890f925a26ab3e26330ad.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/c84341dcd44890f925a26ab3e26330ad.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/c84341dcd44890f925a26ab3e26330ad.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/c84341dcd44890f925a26ab3e26330ad.svg#Benjamin-Title Regular")
+			format("svg");
+}
+
+* {
+	margin: 0;
+}
+div {
+	border-style: solid;
+	border-width: 0.2px;
+	border-color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+.left {
+	width: 40vw;
+	height: 100vh;
+	background-image: url(img/bg.jpg);
+	background-size: 40vw 100vh;
+	display: flex;
+}
+.right {
+	width: 60vw;
+	height: 100vh;
+	background-color: bisque;
+	padding-top: 4rem;
+}
+.logo {
+	align-self: center;
+	margin-bottom: 30vh;
+	height: 2rem;
+	width: 40vw;
+
+	color: white;
+	text-align: center;
+}
+#logo-header {
+	font-family: "CAT Altgotisch", sans-serif;
+	font-size: 9vw;
+}
+
+#logo-desc {
+	font-family: "Gyahegi", sans-serif;
+	font-size: 1rem;
+	font-style: italic;
+}
+.forum-text-intro {
+	font-family: "Benjamin-Title Regular";
+	text-align: center;
+	margin-top: 10vh;
+}
+
+.forum-elements {
+	display: flex;
+	gap: 3rem;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.forum-sections {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+}
+.forum-title {
+	font-family: "Benjamin-Title Regular";
+	font-style: italic;
+	text-align: center;
+}
+label {
+	margin: 1rem;
+	font-family: "Benjamin-Title Regular";
+	font-style: italic;
+}
