@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 	const form = document.getElementById("signup-form");
 	const inputs = form.querySelectorAll("input");
-
 	inputs.forEach((input) => {
 		input.addEventListener("input", function () {
 			validateInput(this);
@@ -16,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		e.preventDefault();
 		if (validateForm()) {
 			alert("Form submitted successfully!");
-			// Here you would typically send the form data to your server
+			
 		}
 	});
 
